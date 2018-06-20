@@ -20,7 +20,7 @@
     color: white;
 }
 #about{
-    width: 550px;
+    width: 795px;
     min-height: 200px;
     padding: 10px;
     background-color: black;
@@ -28,32 +28,30 @@
     color: white;
     display: inline-block;
 }
-#box1, #box2, #box3{
+.box{
     vertical-align: top;
     display: inline-block;
     margin: 10px;
 }
-#box1{
-    width: 280px;
-    min-height: 200px;
-    padding: 10px;
+.box{
+    width: 300px;
+    min-height: 400px;
+    padding: 5px;
     background-color: black;
     font-size: 20px;
     color: white;
 }
-#box2{
-    width: 280px;
-    min-height: 200px;
-    padding: 10px;
-    background-color: black;
-    font-size: 20px;
-    color: white;
+.box-header{
+    height: 50px;
+    width: auto;
+    padding: 5px;
+    background-color: red;
+    font-size: 25px;
 }
-#box3{
-    width: 280px;
-    min-height: 200px;
-    padding: 10px;
-    background-color: black;
-    font-size: 20px;
-    color: white;
+.secondary-header{
+    height: 35px;
+    width: auto;
+    padding: 2px;
+    Background-color: gold;
+    font-size: 15px;
 }
